@@ -18,7 +18,7 @@ namespace InstaAPI.Auth
         private InstaConfig Config = null;
         private String GrantType = "authorization_code";
         private String Code;
-        private String AccessTokenUri = "api.instagram.com/oauth/access_token";
+        private String AccessTokenUri = "api.instagram.com/oauth/authorize";
         private AuthUser AuthorisedUser = null;
         private MetaData Meta = null;
 
